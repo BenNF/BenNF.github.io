@@ -30,6 +30,15 @@
   <!-- Script
    ================================================== -->
   <script src="js/modernizr.js"></script>
+  <script src="js/slider.js" ></script>
+  <script type="text/javascript">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
+  </script>
+
 
   <!-- Favicons
 	================================================== -->
@@ -279,7 +288,29 @@
     </div>
     <!-- End Work -->
 
+    <!-- Portfolio -->
+<section id = "portfolio">
 
+  <div class="row work">
+
+  <div class="three columns header-col">
+    <h1><span>Portfolio</span></h1>
+  </div>
+  <div class="ten columns flex-container">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="images/RiverlandOnTheMerrimack.png" />
+          <p class="flex-caption">www.RiverlandOnTheMerrimack.com</p>
+        </li>
+        <li>
+          <img src="images/DancingYourWayToFertility.png" />
+          <p class="flex-caption">www.DancingYourWayToFertilility.com</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
     <!-- Skills
       ----------------------------------------------- -->
     <div class="row skill">
@@ -418,7 +449,6 @@
                 </blockquote>
               </li>
               <!-- slide ends -->
-
             </ul>
 
           </div>
@@ -537,8 +567,6 @@
 
         <ul class="social-links">
           <li><a href="https://www.facebook.com/ben.farquhar.96"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/erogone775"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://plus.google.com/104686392662538331710/posts"><i class="fa fa-google-plus"></i></a></li>
           <li><a href="https://linkedin.com/in/benjamin-n-646983108"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="https://www.instagram.com/ben.farquhar/"><i class="fa fa-instagram"></i></a></li>
           <li><a href="https://github.com/BenNF"><i class="fa fa-github"></i></a></li>
