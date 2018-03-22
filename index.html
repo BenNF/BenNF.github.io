@@ -29,15 +29,18 @@
 
   <!-- Script
    ================================================== -->
-  <script src="js/modernizr.js"></script>
-  <script src="js/slider.js" ></script>
-  <script type="text/javascript">
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-      animation: "slide"
-    });
-  });
-  </script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script type="text/javascript">
+
+   $(window).load(function() {
+     $('.flexslider').flexslider({
+       animation: "slide"
+     });
+   });
+
+   </script>
+
 
 
   <!-- Favicons
@@ -84,7 +87,7 @@
           <!-- <li><a href="https://twitter.com/erogone775"><i class="fa fa-twitter"></i></a></li> -->
           <!-- <li><a href="https://plus.google.com/104686392662538331710/posts"><i class="fa fa-google-plus"></i></a></li> -->
           <li><a href="https://linkedin.com/in/benjamin-n-646983108"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://www.instagram.com/ben.farquhar/"><i class="fa fa-instagram"></i></a></li>
+          <!-- <li><a href="https://www.instagram.com/ben.farquhar/"><i class="fa fa-instagram"></i></a></li> -->
           <li><a href="https://github.com/BenNF"><i class="fa fa-github"></i></a></li>
         </ul>
       </div>
@@ -114,7 +117,7 @@
 
         <h2>About Me</h2>
 
-        <p>I am Ben Nichols-Farquhar a Freshman at Syracuse University in Syracuse New York. I am studying Computer Science and Mathmatics, looking to work as a software engineer.
+        <p>My name is Ben Nichols-Farquhar and I am a sophmore at Syracuse University in Syracuse New York. I am studying Computer Science and Mathmatics, looking to work as a software engineer.
         </p>
 
 
@@ -171,14 +174,14 @@
           <div class="twelve columns">
 
             <h3> Syracuse University </h3>
-            <p class="info">Syracuse University<span>&bull;</span> <em class="date">2017-2021</em></p>
+            <p class="info">Syracuse University<span>&bull;</span> <em class="date">2017-2020</em></p>
 
             <p>
               <ul style="list-style-type:disc">
                <li> Major: Computer Science </li>
+               <li> Minor: Mathematics </li>
                <li> Renee Crown Honors College </li>
-               <li> Academic Sophmore </li>
-               <li> Important Classes: Data Structures, Calculus 3 </li>
+               <li> GPA: 4.00</li>
              </ul>
            </p>
               <h3>Academy for Science and Design</h3>
@@ -188,7 +191,6 @@
                 <ul style="list-style-type:disc">
                 <li> GPA: 3.90 out of 4.00 </li>
                 <li> Advanced Computer Science </li>
-                <li> High Honors all four years </li>
               </ul>
               </p>
           </div>
@@ -219,6 +221,14 @@
         <div class="row item">
 
           <div class="twelve columns">
+            <h3> Syracuse University Information Technology Support</h3>
+            <p class="info">Student Technical Support <span>&bull;</span> <em class="date">January 2018 - present</em></p>
+
+            <p>
+              <ul style="list-style-type:disc">
+                <li> Provide support to Students, Staff, and Faculty with various technologies in classrooms and labs. </li>
+              </ul>
+            </p>
 
             <h3> Paula Davis Media LLC</h3>
             <p class="info">Web development internship <span>&bull;</span> <em class="date">August 2016 - August 2017</em></p>
@@ -339,6 +349,7 @@
             <li><span class="bar-expand cplusplus"></span><em>C++</em></li>
             <li><span class="bar-expand css"></span><em>CSS</em></li>
             <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+            <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
             <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
           </ul>
 
@@ -418,7 +429,6 @@
               <li>
                 <blockquote>
                   <p>There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
-
                   </p>
                   <cite>C.A.R. Hoare, The 1980 ACM Turing Award Lecture</cite>
                 </blockquote>
@@ -475,13 +485,13 @@
 
       <div class="two columns header-col">
 
-        <h1><span>Get In Touch.</span></h1>
+        <h1><span>Get in touch.</span></h1>
 
       </div>
 
       <div class="ten columns">
 
-        <p class="lead">If you need to contact me for any reason feel free to send me an email, or call me, I will likely answer your call, if not i will call you back shortly.
+        <p class="lead">If you need to contact me feel free to reach out by email.
         </p>
 
       </div>
@@ -568,7 +578,7 @@
         <ul class="social-links">
           <li><a href="https://www.facebook.com/ben.farquhar.96"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://linkedin.com/in/benjamin-n-646983108"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://www.instagram.com/ben.farquhar/"><i class="fa fa-instagram"></i></a></li>
+          <!-- <li><a href="https://www.instagram.com/ben.farquhar/"><i class="fa fa-instagram"></i></a></li> -->
           <li><a href="https://github.com/BenNF"><i class="fa fa-github"></i></a></li>
         </ul>
 
@@ -586,17 +596,18 @@
 
   <!-- Java Script
    ================================================== -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
     window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
   </script>
   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-  <script src="js/jquery.flexslider.js"></script>
   <script src="js/waypoints.js"></script>
   <script src="js/jquery.fittext.js"></script>
   <script src="js/magnific-popup.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!-- <script src="js/slider.js" ></script> -->
+
 
 </body>
 
